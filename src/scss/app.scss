@@ -1,0 +1,50 @@
+@import './normalize.scss';
+@import './colors.scss';
+@import './hamburgers.scss';
+  
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+h1{ 
+    font-size: 4.4rem;
+    line-height: 6rem;
+    font-weight: 400;
+    color: $title-primary;
+}
+
+a {
+    color: $link-primary;
+    text-decoration: none;
+    display: inline-block
+}
+
+section {
+    padding: 0 2.5rem;
+    overflow: hidden;
+    .inner > h1 {
+        text-align: center
+    }
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.hamburger {
+    margin-left: auto
+}
+
+// page styles
+@import './main.scss';
