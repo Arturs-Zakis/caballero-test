@@ -1766,6 +1766,11 @@ button {
   top: -3rem;
   right: -2.2rem;
   transform: translate(100%, -100%);
+  transition: .2s;
+}
+
+.product__link:hover img {
+  transform: translate(40px, -100%);
 }
 
 .news {

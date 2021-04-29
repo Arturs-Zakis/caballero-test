@@ -296,7 +296,11 @@ button {
             width: 1.6rem;
             top: -3rem; right: -2.2rem;
             transform: translate(100%, -100% );
+            transition: .2s;
+        }
 
+        &:hover img {
+            transform: translate(40px, -100%);
         }
     }
 }
